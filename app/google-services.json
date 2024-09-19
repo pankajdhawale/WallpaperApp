@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "537599013596",
+    "project_id": "wallpaperapp-ee300",
+    "storage_bucket": "wallpaperapp-ee300.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537599013596:android:e7639b726f450252e17a19",
+        "android_client_info": {
+          "package_name": "com.example.wallpaperapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCuUvuFCW6vaDIm66EYqrBOFd2Tlc3IFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537599013596:android:289128cee9511b3ee17a19",
+        "android_client_info": {
+          "package_name": "com.example.wallpaperuserapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCuUvuFCW6vaDIm66EYqrBOFd2Tlc3IFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

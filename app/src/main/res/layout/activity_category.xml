@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryActivity">
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/catTitle"
+    android:text="Abstract"
+    android:textColor="@color/wallpaper_primary"
+    android:fontFamily="@font/nunitobold"
+    android:layout_marginStart="20dp"
+    android:textSize="39sp"
+    android:layout_marginTop="10dp"    />
+
+    <TextView
+        android:id="@+id/cat_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/catTitle"
+        android:text="56 Wallpaper Available"
+        android:textColor="@color/wallpaper_primary"
+        android:fontFamily="@font/nunitoregular"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/catRecy"
+        android:layout_below="@+id/cat_count"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>
